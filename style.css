@@ -1,0 +1,48 @@
+body{
+padding: 15px 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    border:2px solid black ;
+    align-items: center;
+}
+nav h1{
+    font-weight: bold;
+    margin-left: 20px;
+}
+nav a{
+    margin-left: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+nav button{ 
+    text-transform: capitalize;
+    font-size: 20px;
+    background-color: rgb(12, 11, 12);
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 5px 45px;
+    margin-right: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.wiki{
+    font-size: 20px;
+}
+.secondary{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
